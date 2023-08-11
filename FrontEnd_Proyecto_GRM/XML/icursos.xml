@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Curso>
+	<!-- Opciones del navbar -->
+	<Opciones>
+		<Opcion Url="/Default.aspx?Id=0" Texto="Inicio" Id="0"></Opcion>
+		<Opcion Url="/Default.aspx?Id=1" Texto="Cursos" Id="1"></Opcion>
+		<Opcion Url="/Default.aspx?Id=2" Texto="Nosotros" Id="2"></Opcion>
+		<Opcion Url="/Default.aspx?Id=3" Texto="Contacto" Id="3"></Opcion>
+	</Opciones>
+	<!-- Datos de la plataforma -->
+	<Datos>
+		<Nombre>iCURSOS</Nombre>
+		<Descripcion>Bienvenidos a iCURSOS, una plataforma dedicada a ofrecer cursos para el desarrollo web, software, etc..</Descripcion>
+		<Direccion>Av 5 Pte 2109, San Matías, 72090 Puebla, Pue.</Direccion>
+		<Telefono>853-542-4327</Telefono>
+		<Email>icursos@example.com</Email>
+		<Imagen>img/about.jpg</Imagen>
+		<Habilidades Nombre="Habilidades:">
+			<Habilidad Nombre=" Autodidacta" Orden="1"></Habilidad>
+			<Habilidad Nombre=" Analizador" Orden="2"></Habilidad>
+			<Habilidad Nombre=" Comunicación" Orden="3"></Habilidad>
+			<Habilidad Nombre=" Resolución de problemas" Orden="4"></Habilidad>
+			<Habilidad Nombre=" Trabajo en equipo" Orden="5"></Habilidad>
+			<Habilidad Nombre=" Estructuras y los algoritmos de datos" Orden="6"></Habilidad>
+			<Habilidad Nombre=" Lenguajes de programación" Orden="7"></Habilidad>
+			<Habilidad Nombre=" Curiosidad" Orden="8"></Habilidad>
+		</Habilidades>
+		<Ubicacion></Ubicacion>
+	</Datos>
+	<!-- Categorias con sus cursos -->
+	<Categorias>
+		<Categoria Nombre="Desarrollo Web" Orden="Web">
+			<TotalCursos>10</TotalCursos>
+			<Imagen>img/cat-1.jpg</Imagen>
+			<Curso Nombre="HTML5 a master" Orden="1">
+				<Imagen>img/course-1.jpg</Imagen>
+				<Precio>$150.99</Precio>
+				<Descripcion><![CDATA[ Aprende HTML5 desde lo básico hasta master]]></Descripcion>
+				<Rating>10</Rating>
+				<Maestro>Elias Carmen</Maestro>
+				<Tiempo>2.0</Tiempo>
+				<MaximoEstudiantes>30</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="CSS3 a master" Orden="2">
+				<Imagen>img/course-2.jpg</Imagen>
+				<Precio>$10.99</Precio>
+				<Descripcion><![CDATA[ Aprende CSS3 desde lo básico hasta master]]></Descripcion>
+				<Rating>3</Rating>
+				<Maestro>Elias Carmen</Maestro>
+				<Tiempo>2.0</Tiempo>
+				<MaximoEstudiantes>30</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="JavaScript a master" Orden="3">
+				<Imagen>img/course-3.jpg</Imagen>
+				<Precio>$20.99</Precio>
+				<Descripcion><![CDATA[ Aprende JavaScript desde lo básico hasta master]]></Descripcion>
+				<Rating>5</Rating>
+				<Maestro>Elias Carmen</Maestro>
+				<Tiempo>2.0</Tiempo>
+				<MaximoEstudiantes>30</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Bootstrap 5 a master" Orden="4">
+				<Imagen>img/course-4.jpg</Imagen>
+				<Precio>$120.99</Precio>
+				<Descripcion><![CDATA[ Aprende Bootstrap 5 desde lo básico hasta master]]></Descripcion>
+				<Rating>10</Rating>
+				<Maestro>Elias Carmen</Maestro>
+				<Tiempo>2.0</Tiempo>
+				<MaximoEstudiantes>30</MaximoEstudiantes>
+			</Curso>
+		</Categoria>
+		<Categoria Nombre="Desarrollo Software" Orden="Software">
+			<TotalCursos>5</TotalCursos>
+			<Imagen>img/cat-2.jpg</Imagen>
+			<Curso Nombre="C# a master" Orden="1">
+				<Imagen>img/course-5.jpg</Imagen>
+				<Precio>$90.00</Precio>
+				<Descripcion><![CDATA[ Aprende C# desde lo básico hasta master]]></Descripcion>
+				<Rating>10</Rating>
+				<Maestro>Pedro Pascal</Maestro>
+				<Tiempo>1.30</Tiempo>
+				<MaximoEstudiantes>15</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Java Full Stack" Orden="2">
+				<Imagen>img/course-6.jpg</Imagen>
+				<Precio>$70.00</Precio>
+				<Descripcion><![CDATA[ Aprende Java desde lo básico hasta master]]></Descripcion>
+				<Rating>23</Rating>
+				<Maestro>Pedro Pascal</Maestro>
+				<Tiempo>1.30</Tiempo>
+				<MaximoEstudiantes>15</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="C++ para principiantes" Orden="3">
+				<Imagen>img/course-7.jpg</Imagen>
+				<Precio>$190.00</Precio>
+				<Descripcion><![CDATA[ Aprende C++ desde lo básico hasta master]]></Descripcion>
+				<Rating>100</Rating>
+				<Maestro>Pedro Pascal</Maestro>
+				<Tiempo>1.30</Tiempo>
+				<MaximoEstudiantes>15</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="C nivel intermedio" Orden="4">
+				<Imagen>img/course-8.jpg</Imagen>
+				<Precio>$900.00</Precio>
+				<Descripcion><![CDATA[ Aprende C desde lo básico hasta master]]></Descripcion>
+				<Rating>27</Rating>
+				<Maestro>Pedro Pascal</Maestro>
+				<Tiempo>1.30</Tiempo>
+				<MaximoEstudiantes>15</MaximoEstudiantes>
+			</Curso>
+		</Categoria>
+		<Categoria Nombre="Edición de Video" Orden="Video">
+			<TotalCursos>7</TotalCursos>
+			<Imagen>img/cat-3.jpg</Imagen>
+			<Curso Nombre="Sony Vegas" Orden="1">
+				<Imagen>img/course-9.jpg</Imagen>
+				<Precio>$73.50</Precio>
+				<Descripcion><![CDATA[ Aprende Sony Vegas desde lo básico hasta master]]></Descripcion>
+				<Rating>18</Rating>
+				<Maestro>Ulises Peralta</Maestro>
+				<Tiempo>0.58</Tiempo>
+				<MaximoEstudiantes>25</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Camtasia" Orden="2">
+				<Imagen>img/course-10.jpg</Imagen>
+				<Precio>$13.50</Precio>
+				<Descripcion><![CDATA[ Aprende Camtasia desde lo básico hasta master]]></Descripcion>
+				<Rating>18</Rating>
+				<Maestro>Ulises Peralta</Maestro>
+				<Tiempo>0.58</Tiempo>
+				<MaximoEstudiantes>25</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Adobe After Effects" Orden="3">
+				<Imagen>img/course-11.jpg</Imagen>
+				<Precio>$73.50</Precio>
+				<Descripcion><![CDATA[ Aprende Adobe After Effects desde lo básico hasta master]]></Descripcion>
+				<Rating>18</Rating>
+				<Maestro>Ulises Peralta</Maestro>
+				<Tiempo>0.58</Tiempo>
+				<MaximoEstudiantes>25</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Clip" Orden="4">
+				<Imagen>img/course-12.jpg</Imagen>
+				<Precio>$72.50</Precio>
+				<Descripcion><![CDATA[ Aprende Clip desde lo básico hasta master]]></Descripcion>
+				<Rating>18</Rating>
+				<Maestro>Ulises Peralta</Maestro>
+				<Tiempo>0.58</Tiempo>
+				<MaximoEstudiantes>25</MaximoEstudiantes>
+			</Curso>
+		</Categoria>
+		<Categoria Nombre="Diseño Gráfico" Orden="Artes">
+			<TotalCursos>15</TotalCursos>
+			<Imagen>img/cat-4.jpg</Imagen>
+			<Curso Nombre="Dibujo 1" Orden="1">
+				<Imagen>img/course-13.jpg</Imagen>
+				<Precio>$23.50</Precio>
+				<Descripcion><![CDATA[ Aprende Dibujo 1 desde lo básico hasta master]]></Descripcion>
+				<Rating>11</Rating>
+				<Maestro>Raul Salinas</Maestro>
+				<Tiempo>2.58</Tiempo>
+				<MaximoEstudiantes>21</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Dibujo 2" Orden="2">
+				<Imagen>img/course-14.jpg</Imagen>
+				<Precio>$12.50</Precio>
+				<Descripcion><![CDATA[ Aprende Dibujo 2 desde lo básico hasta master]]></Descripcion>
+				<Rating>27</Rating>
+				<Maestro>Raul Salinas</Maestro>
+				<Tiempo>2.58</Tiempo>
+				<MaximoEstudiantes>21</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Artes" Orden="3">
+				<Imagen>img/course-15.jpg</Imagen>
+				<Precio>$75.50</Precio>
+				<Descripcion><![CDATA[ Aprende Artes desde lo básico hasta master]]></Descripcion>
+				<Rating>48</Rating>
+				<Maestro>Raul Salinas</Maestro>
+				<Tiempo>2.58</Tiempo>
+				<MaximoEstudiantes>21</MaximoEstudiantes>
+			</Curso>
+			<Curso Nombre="Formas y Figuras" Orden="4">
+				<Imagen>img/course-16.jpg</Imagen>
+				<Precio>$23.50</Precio>
+				<Descripcion><![CDATA[ Aprende Formas y Figuras desde lo básico hasta master]]></Descripcion>
+				<Rating>10</Rating>
+				<Maestro>Raul Salinas</Maestro>
+				<Tiempo>2.58</Tiempo>
+				<MaximoEstudiantes>21</MaximoEstudiantes>
+			</Curso>
+		</Categoria>
+	</Categorias>
+	<!-- Estudiantes -->
+	<Estudiantes>
+		<Estudiante Nombre="Karla Panini Torres">
+			<Imagen>img/testimonial-1.jpg</Imagen>
+			<Carrera>Lic. Informática</Carrera>
+			<Comentario>No me gusto el curso</Comentario>
+		</Estudiante>
+		<Estudiante Nombre="Brian Medrano Piedras">
+			<Imagen>img/testimonial-2.jpg</Imagen>
+			<Carrera>Desarrollador .Net</Carrera>
+			<Comentario>Es mucho dinero para 6 meses</Comentario>
+		</Estudiante>
+		<Estudiante Nombre="Pablo Hector Putin">
+			<Imagen>img/testimonial-3.jpg</Imagen>
+			<Carrera>Ing. Sistemas</Carrera>
+			<Comentario>Esta mejor udemy</Comentario>
+		</Estudiante>
+		<Estudiante Nombre="Carlos Silvestre">
+			<Imagen>img/testimonial-4.jpg</Imagen>
+			<Carrera>Lic. Diseño</Carrera>
+			<Comentario>Ese profe!!!</Comentario>
+		</Estudiante>		
+	</Estudiantes>
+	<!-- Galeria -->
+	<Galeria>
+		<Foto>
+			<Imagen>img/course-1.jpg</Imagen>
+		</Foto>
+		<Foto>
+			<Imagen>img/course-2.jpg</Imagen>
+		</Foto>
+		<Foto>
+			<Imagen>img/course-3.jpg</Imagen>
+		</Foto>
+		<Foto>
+			<Imagen>img/course-2.jpg</Imagen>
+		</Foto>
+		<Foto>
+			<Imagen>img/course-3.jpg</Imagen>
+		</Foto>
+		<Foto>
+			<Imagen>img/course-1.jpg</Imagen>
+		</Foto>
+	</Galeria>
+	<!-- Servicios -->
+	<Servicios>
+		<Servicio Nombre="Profesores con habilidades" Activo="Si">
+			<Descripcion><![CDATA[ Aprende y mejora con los mejores profesores.]]></Descripcion>
+		</Servicio>
+		<Servicio Nombre="Clases en línea" Activo="Si">
+			<Descripcion><![CDATA[ La mayoría de nuestras clases tomalas desde la comodidad desde casa.]]></Descripcion>
+		</Servicio>
+		<Servicio Nombre="Prueba 1">
+			<Descripcion><![CDATA[ Esto es una prueba 1]]></Descripcion>
+		</Servicio>
+		<Servicio Nombre="Projectos desde casa" Activo="Si">
+			<Descripcion><![CDATA[ Participa en proyectos sin ir a las oficinas.]]></Descripcion>
+		</Servicio>
+		<Servicio Nombre="Prueba 2">
+			<Descripcion><![CDATA[ Esto es una prueba 2]]></Descripcion>
+		</Servicio>
+		<Servicio Nombre="Librería" Activo="Si">
+			<Descripcion><![CDATA[ Contamos con una gran librería para la documentación.]]></Descripcion>
+		</Servicio>
+	</Servicios>
+	<!-- Profesores -->
+	<Profesores>
+		<Profesor Nombre="Elias Carmen">
+			<Imagen>img/team-1.jpg</Imagen>
+			<Cargo>Profesor de Desarrollo Web</Cargo>
+		</Profesor>
+		<Profesor Nombre="Pedro Pascal">
+			<Imagen>img/team-2.jpg</Imagen>
+			<Cargo>Profesor de Desarrollo Software</Cargo>
+		</Profesor>
+		<Profesor Nombre="Ulises Peralta">
+			<Imagen>img/team-3.jpg</Imagen>
+			<Cargo>Profesor de Diseño Gráfico</Cargo>
+		</Profesor>
+		<Profesor Nombre="Raul Salinas">
+			<Imagen>img/team-4.jpg</Imagen>
+			<Cargo>Profesor de Artes</Cargo>
+		</Profesor>
+	</Profesores>
+	<!-- Temas (Drag&Drop) -->
+	<Temas>
+		<Tema Nombre="1" Id="arrastrable1">
+			<Imagen>img/tema1.png</Imagen>
+		</Tema>
+		<Tema Nombre="2" Id="arrastrable2">
+			<Imagen>img/tema2.png</Imagen>
+		</Tema>
+		<Tema Nombre="3" Id="arrastrable3">
+			<Imagen>img/tema3.png</Imagen>
+		</Tema>
+		<Tema Nombre="4" Id="arrastrable4">
+			<Imagen>img/tema4.png</Imagen>
+		</Tema>
+		<Tema Nombre="5" Id="arrastrable5">
+			<Imagen>img/tema5.png</Imagen>
+		</Tema>
+		<Tema Nombre="6" Id="arrastrable6">
+			<Imagen>img/tema6.png</Imagen>
+		</Tema>
+		<Tema Nombre="7" Id="arrastrable7">
+			<Imagen>img/tema7.png</Imagen>
+		</Tema>
+		<Tema Nombre="8" Id="arrastrable8">
+			<Imagen>img/tema8.png</Imagen>
+		</Tema>
+		<Tema Nombre="9" Id="arrastrable9">
+			<Imagen>img/tema9.png</Imagen>
+		</Tema>
+		<Tema Nombre="10" Id="arrastrable10">
+			<Imagen>img/tema10.png</Imagen>
+		</Tema>
+		<Tema Nombre="11" Id="arrastrable11">
+			<Imagen>img/tema11.png</Imagen>
+		</Tema>
+	</Temas>
+</Curso>
