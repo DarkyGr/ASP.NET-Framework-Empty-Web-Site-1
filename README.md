@@ -4,7 +4,7 @@ This project is working with XSLT and templates which are based on Bootstrap.
 And to obtain the data that is displayed on the page, it is obtained through an XML.
 
 This page was made with:
-- ASP.NET Framework 4.6.2
+- ASP.NET Framework 4.7.2
 - XML
 - XSLT
 - HTML5
